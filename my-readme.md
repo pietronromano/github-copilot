@@ -14,23 +14,24 @@
 
 # Copilot General guidelines
 ## Copilot signup and setup
-    - https://github.com/features/copilot
-    - https://github.com/settings/copilot/features
+- https://github.com/features/copilot
+- https://github.com/settings/copilot/features
 
 ## Provide *context* to Copilot
-    - `@workspace`: the currently open project
-    - `@terminal #terminalSelection`: current selection in the terminal window 
-    - From open file as the active editor (chat window shows the file being used)
-    - Attach a file to the chat window
+- `@workspace`: the currently open project
+- `@terminal #terminalSelection`: current selection in the terminal window 
+- From open file as the active editor (chat window shows the file being used)
+- Attach a file to the chat window
 
-## Before asking Copilot to right code, ask if there's an existing function or library to do the same thing
-    - PROMPT: `write me a function in javascript that will separate document cookies`
-        - RESULT: generates requested code
-    - PROMPT: `Is there a built-in function or a library in javascript that will separate document cookies`??
-        - RESULT: OK: finds related cookie functions and the js-coockie library
+## Before asking Copilot to right code...
+Ask if there's an existing function or library to do the same thing:
+- PROMPT: `write me a function in javascript that will separate document cookies`
+    - RESULT: generates requested code
+- PROMPT: `Is there a built-in function or a library in javascript that will separate document cookies`??
+    - RESULT: OK: finds related cookie functions and the js-coockie library
 
 ## Source control integration
-    - In Source Control pane, click on Copilot Icon to see a suggested commit message
+- In Source Control pane, click on Copilot Icon to see a suggested commit message
 ---
 
 # Course Notes
